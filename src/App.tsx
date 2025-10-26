@@ -170,6 +170,7 @@ function App() {
         onClose={() => setTocOpen(false)}
         onSelectChapter={handleSelectChapter}
         onStartQuiz={currentStory.quiz && currentStory.quiz.length > 0 ? handleStartQuiz : undefined}
+        onBackToStories={handleBackToHome}
       />
 
       {quizMode ? (

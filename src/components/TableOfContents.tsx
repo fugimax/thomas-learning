@@ -9,6 +9,7 @@ interface TableOfContentsProps {
   onClose: () => void;
   onSelectChapter: (chapterId: number) => void;
   onStartQuiz?: () => void;  // Optional - only if story has a quiz
+  onBackToStories?: () => void;  // Optional - to go back to story selection
 }
 
 export default function TableOfContents({
@@ -17,6 +18,7 @@ export default function TableOfContents({
   onClose,
   onSelectChapter,
   onStartQuiz,
+  onBackToStories,
 }: TableOfContentsProps) {
   return (
     <>
@@ -35,6 +37,21 @@ export default function TableOfContents({
 
         {/* TOC List */}
         <div className="divide-y-2 divide-black">
+          {/* Back to Stories Button - only show if handler is provided */}
+          {onBackToStories && (
+            <button
+              onClick={() => {
+                onBackToStories();
+                onClose();
+              }}
+              className="w-full text-left p-6 bg-green-100 hover:bg-green-200 transition-colors border-b-2 border-black"
+            >
+              <span className="text-xl md:text-2xl font-bold">
+                ← Back to Stories
+              </span>
+            </button>
+          )}
+
           {chapters.map((chapter) => (
             <button
               key={chapter.id}
