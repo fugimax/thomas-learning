@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Card Prototype</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @font-face {
+            font-family: 'Peanuts';
+            src: url('/public/assets/peanuts-font.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Peanuts', 'Comic Sans MS', cursive;
+        }
+
+        /* Speech bubble tail */
+        .speech-bubble::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: 20px solid white;
+        }
+
+        .speech-bubble::before {
+            content: '';
+            position: absolute;
+            bottom: -24px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 18px solid transparent;
+            border-right: 18px solid transparent;
+            border-top: 24px solid black;
+            z-index: -1;
+        }
+
+        /* TOC slide in animation */
+        .toc-overlay {
+            transition: transform 0.3s ease-in-out;
+            transform: translateX(0);
+        }
+
+        .toc-overlay.toc-hidden {
+            transform: translateX(-100%);
+        }
+    </style>
+</head>
+<body class="bg-yellow-100 min-h-screen">
+    <!-- Table of Contents Overlay -->
+    <div id="tocOverlay" class="toc-overlay toc-hidden fixed inset-0 bg-white z-50 overflow-y-auto">
+        <!-- TOC Header -->
+        <div class="bg-yellow-300 border-b-4 border-black p-4 flex items-center gap-4">
+            <button id="closeToc" class="text-2xl font-bold">X</button>
+            <h2 class="text-2xl md:text-3xl">TABLE OF CONTENTS</h2>
+        </div>
+
+        <!-- TOC List -->
+        <div class="divide-y-2 divide-black">
+            <button class="w-full text-left p-6 hover:bg-gray-50 transition-colors">
+                <span class="text-xl md:text-2xl">1 CHAPTER ONE TITLE</span>
+            </button>
+            <button class="w-full text-left p-6 hover:bg-gray-50 transition-colors">
+                <span class="text-xl md:text-2xl">2 CHAPTER TWO TITLE</span>
+            </button>
+            <button class="w-full text-left p-6 hover:bg-gray-50 transition-colors">
+                <span class="text-xl md:text-2xl">3 CHAPTER THREE TITLE</span>
+            </button>
+            <button class="w-full text-left p-6 hover:bg-gray-50 transition-colors">
+                <span class="text-xl md:text-2xl">4 CHAPTER FOUR TITLE</span>
+            </button>
+            <button class="w-full text-left p-6 hover:bg-gray-50 transition-colors">
+                <span class="text-xl md:text-2xl">5 CHAPTER FIVE TITLE</span>
+            </button>
+            <button class="w-full text-left p-6 hover:bg-gray-50 transition-colors">
+                <span class="text-xl md:text-2xl">6 CHAPTER SIX TITLE</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="bg-yellow-300 border-b-4 border-black p-4">
+        <div class="flex items-center gap-4">
+            <button id="openToc" class="text-2xl" aria-label="Menu">☰</button>
+            <h1 class="text-2xl md:text-3xl">Chapter Title</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex flex-col items-center justify-center min-h-[calc(100vh-80px)] p-6 gap-8">
+        <!-- Speech Bubble -->
+        <div class="relative speech-bubble bg-white border-4 border-black rounded-3xl px-8 py-6 max-w-2xl mx-auto text-center mb-8">
+            <p class="text-lg md:text-xl">
+                Here are the words for this story card.
+            </p>
+        </div>
+
+        <!-- Character Image Box -->
+        <div class="bg-white border-4 border-black">
+            <img
+                src="/public/assets/character-images/Snoopy.png"
+                alt="Snoopy"
+                class="w-64 h-64 md:w-80 md:h-80 object-contain"
+            />
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="flex gap-4 mt-8">
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-lg md:text-xl transition-colors">
+                Previous
+            </button>
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-lg md:text-xl transition-colors">
+                Next
+            </button>
+        </div>
+    </main>
+
+    <script>
+        const tocOverlay = document.getElementById('tocOverlay');
+        const openTocBtn = document.getElementById('openToc');
+        const closeTocBtn = document.getElementById('closeToc');
+
+        openTocBtn.addEventListener('click', () => {
+            tocOverlay.classList.remove('toc-hidden');
+        });
+
+        closeTocBtn.addEventListener('click', () => {
+            tocOverlay.classList.add('toc-hidden');
+        });
+
+        // Close TOC when clicking any chapter
+        tocOverlay.querySelectorAll('button:not(#closeToc)').forEach(btn => {
+            btn.addEventListener('click', () => {
+                tocOverlay.classList.add('toc-hidden');
+            });
+        });
+    </script>
+</body>
+</html>
