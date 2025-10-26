@@ -1,0 +1,312 @@
+id: historic-halloween
+title: "Historic Halloween"
+description: "Get ready for your school presentation about Charles Schulz!"
+thumbnail: "/assets/historic-halloween/thumbnail.png"
+
+chapters:
+  - id: 1
+    title: "GETTING READY FOR HALLOWEEN!"
+    cards:
+      - id: "intro-1"
+        text: "Hi Thomas! It's almost Halloween, and you're dressing up as Charles M. Schulz for school! How exciting!"
+        characterImage: "/assets/historic-halloween/character-images/peanuts-halloween.png"
+        characterName: "Peanuts Halloween"
+
+      - id: "intro-2"
+        text: "Your teacher wants you to tell the class about the person you're dressed as. Let's practice answering the questions together!"
+        characterImage: "/assets/historic-halloween/character-images/Sally.png"
+        characterName: "Sally"
+
+      - id: "intro-3"
+        text: "There are 5 questions you need to answer. Don't worry - we'll help you learn everything you need to know!"
+        characterImage: "/assets/historic-halloween/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+  - id: 2
+    title: "QUESTION 1: WHO ARE YOU?"
+    cards:
+      - id: "who-1"
+        text: "The first question is: 'Who are you?' This is the easiest one - you're Charles M. Schulz!"
+        characterImage: "/assets/historic-halloween/character-images/Linus.png"
+        characterName: "Linus"
+
+      - id: "who-2"
+        text: "Charles M. Schulz was a cartoonist - someone who draws comics. He created all of us Peanuts characters!"
+        characterImage: "/assets/historic-halloween/schulz-photos/schulz-with-characters.png"
+        characterName: "Charles M. Schulz with his characters"
+
+      - id: "who-3"
+        text: "But here's a fun fact: everyone called him 'Sparky'! When he was only two days old, his uncle gave him that nickname."
+        characterImage: "/assets/historic-halloween/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "who-4"
+        text: "So you can say: 'I am Charles M. Schulz, but everyone called me Sparky. I created the Peanuts comic strip!'"
+        characterImage: "/assets/historic-halloween/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+  - id: 3
+    title: "QUESTION 2: WHEN DID YOU LIVE?"
+    cards:
+      - id: "when-1"
+        text: "The second question is: 'When did you live?' This means when you were born and important dates in your life."
+        characterImage: "/assets/historic-halloween/character-images/Lucy.png"
+        characterName: "Lucy"
+
+      - id: "when-2"
+        text: "Charles was born on November 26, 1922. That was over 100 years ago! He was a tiny baby in Minneapolis."
+        characterImage: "/assets/historic-halloween/schulz-photos/child-schulz.png"
+        characterName: "Young Charles M. Schulz"
+
+      - id: "when-3"
+        text: "He created Peanuts in 1950 when he was 27 years old. The first comic strip appeared on October 2, 1950!"
+        characterImage: "/assets/historic-halloween/schulz-photos/first-strip.png"
+        characterName: "First Peanuts Comic Strip"
+
+      - id: "when-4"
+        text: "Charles drew Peanuts for 50 years! His last comic strip came out on February 13, 2000. He lived to be 77 years old."
+        characterImage: "/assets/historic-halloween/schulz-photos/old-schulz.png"
+        characterName: "Charles M. Schulz"
+
+      - id: "when-5"
+        text: "So you can say: 'I was born in 1922 and lived until 2000. I drew Peanuts from 1950 to 2000 - that's 50 years!'"
+        characterImage: "/assets/historic-halloween/character-images/Linus.png"
+        characterName: "Linus"
+
+  - id: 4
+    title: "QUESTION 3: WHERE ARE YOU FROM?"
+    cards:
+      - id: "where-1"
+        text: "The third question is: 'Where are you from?' This one is nice and simple!"
+        characterImage: "/assets/historic-halloween/character-images/Sally.png"
+        characterName: "Sally"
+
+      - id: "where-2"
+        text: "Charles M. Schulz was born in Minneapolis, Minnesota. That's a big city in the middle of the United States!"
+        characterImage: "/assets/historic-halloween/schulz-photos/young-schulz.png"
+        characterName: "Young Charles M. Schulz"
+
+      - id: "where-3"
+        text: "Minnesota can be very cold in the winter! Charles grew up reading comic strips with his dad every Sunday morning."
+        characterImage: "/assets/historic-halloween/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "where-4"
+        text: "So you can say: 'I am from Minneapolis, Minnesota. I grew up there with my mom and dad!'"
+        characterImage: "/assets/historic-halloween/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+  - id: 5
+    title: "QUESTION 4: WHAT DID YOU DO?"
+    cards:
+      - id: "what-1"
+        text: "The fourth question is: 'What did you do?' This is where you get to talk about Charles's amazing work!"
+        characterImage: "/assets/historic-halloween/character-images/Lucy.png"
+        characterName: "Lucy"
+
+      - id: "what-2"
+        text: "Charles M. Schulz created the Peanuts comic strip. He drew every single comic himself - no one helped him!"
+        characterImage: "/assets/historic-halloween/schulz-photos/schulz-with-characters.png"
+        characterName: "Charles M. Schulz"
+
+      - id: "what-3"
+        text: "He drew 17,897 comic strips! That's a LOT of drawings. He worked 7 hours a day, 5 days a week, for 50 years!"
+        characterImage: "/assets/historic-halloween/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "what-4"
+        text: "Peanuts appeared in over 2,600 newspapers around the world. About 355 million people read it every day!"
+        characterImage: "/assets/historic-halloween/character-images/peanuts-gang.png"
+        characterName: "The Peanuts Gang"
+
+      - id: "what-5"
+        text: "So you can say: 'I created the Peanuts comic strip and drew nearly 18,000 comics! Millions of people around the world read Peanuts every day!'"
+        characterImage: "/assets/historic-halloween/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+  - id: 6
+    title: "QUESTION 5: WHY DID YOU CHOOSE THIS PERSON?"
+    cards:
+      - id: "why-1"
+        text: "The last question is: 'Why did you choose this person?' This is YOUR chance to say why Charles Schulz is special to YOU!"
+        characterImage: "/assets/historic-halloween/character-images/Linus.png"
+        characterName: "Linus"
+
+      - id: "why-2"
+        text: "Charles never gave up on his dream! Even when Disney said no and his drawings were rejected, he kept trying!"
+        characterImage: "/assets/historic-halloween/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+      - id: "why-3"
+        text: "He created characters that make people smile. Charlie Brown, Snoopy, and all of us became your friends!"
+        characterImage: "/assets/historic-halloween/character-images/peanuts-gang.png"
+        characterName: "The Peanuts Gang"
+
+      - id: "why-4"
+        text: "Charles turned his real life into art. His dog Spike became Snoopy! His feelings became Charlie Brown!"
+        characterImage: "/assets/historic-halloween/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "why-5"
+        text: "So you can say: 'I chose Charles Schulz because he never gave up on his dreams. He created Peanuts and made millions of people happy!'"
+        characterImage: "/assets/historic-halloween/character-images/Sally.png"
+        characterName: "Sally"
+
+  - id: 7
+    title: "YOU'RE READY!"
+    cards:
+      - id: "ready-1"
+        text: "Great job, Thomas! You now know everything you need to tell your class about Charles M. Schulz!"
+        characterImage: "/assets/historic-halloween/character-images/peanuts-halloween.png"
+        characterName: "Peanuts Halloween"
+
+      - id: "ready-2"
+        text: "Remember: Who are you? Charles M. Schulz (Sparky), creator of Peanuts!"
+        characterImage: "/assets/historic-halloween/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+      - id: "ready-3"
+        text: "When did you live? Born 1922, died 2000. Drew Peanuts for 50 years!"
+        characterImage: "/assets/historic-halloween/character-images/Lucy.png"
+        characterName: "Lucy"
+
+      - id: "ready-4"
+        text: "Where are you from? Minneapolis, Minnesota!"
+        characterImage: "/assets/historic-halloween/character-images/Linus.png"
+        characterName: "Linus"
+
+      - id: "ready-5"
+        text: "What did you do? Created Peanuts and drew nearly 18,000 comic strips!"
+        characterImage: "/assets/historic-halloween/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "ready-6"
+        text: "Why did you choose this person? He never gave up and made millions of people happy!"
+        characterImage: "/assets/historic-halloween/character-images/Sally.png"
+        characterName: "Sally"
+
+      - id: "ready-7"
+        text: "Now take the quiz to make sure you remember everything for your presentation. Good luck, Thomas!"
+        characterImage: "/assets/historic-halloween/character-images/peanuts-gang.png"
+        characterName: "The Peanuts Gang"
+
+quiz:
+  - id: "q1"
+    question: "What is Charles M. Schulz's nickname?"
+    options:
+      - "Charlie"
+      - "Sparky"
+      - "Chuck"
+      - "Chuckie"
+    correctIndex: 1
+    explanation: "Everyone called him Sparky! His uncle gave him that nickname when he was only two days old."
+    characterImage: "/assets/historic-halloween/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q2"
+    question: "What did Charles M. Schulz create?"
+    options:
+      - "Mickey Mouse"
+      - "Superman"
+      - "Peanuts"
+      - "Spongebob"
+    correctIndex: 2
+    explanation: "Charles M. Schulz created the Peanuts comic strip with Charlie Brown, Snoopy, and all the gang!"
+    characterImage: "/assets/historic-halloween/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q3"
+    question: "When was Charles M. Schulz born?"
+    options:
+      - "1922"
+      - "1950"
+      - "2000"
+      - "1980"
+    correctIndex: 0
+    explanation: "Charles was born on November 26, 1922, in Minneapolis, Minnesota!"
+    characterImage: "/assets/historic-halloween/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q4"
+    question: "Where was Charles M. Schulz from?"
+    options:
+      - "New York, New York"
+      - "Los Angeles, California"
+      - "Minneapolis, Minnesota"
+      - "Chicago, Illinois"
+    correctIndex: 2
+    explanation: "Charles M. Schulz was born and grew up in Minneapolis, Minnesota!"
+    characterImage: "/assets/historic-halloween/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q5"
+    question: "When did the first Peanuts comic strip appear?"
+    options:
+      - "1922"
+      - "1950"
+      - "1968"
+      - "2000"
+    correctIndex: 1
+    explanation: "The very first Peanuts comic strip appeared on October 2, 1950!"
+    characterImage: "/assets/historic-halloween/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q6"
+    question: "How many years did Charles draw Peanuts?"
+    options:
+      - "10 years"
+      - "25 years"
+      - "50 years"
+      - "75 years"
+    correctIndex: 2
+    explanation: "Charles drew Peanuts for 50 years - from 1950 to 2000!"
+    characterImage: "/assets/historic-halloween/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q7"
+    question: "When did Charles's last comic strip come out?"
+    options:
+      - "1990"
+      - "1995"
+      - "2000"
+      - "2010"
+    correctIndex: 2
+    explanation: "Charles's very last comic strip came out on February 13, 2000!"
+    characterImage: "/assets/historic-halloween/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q8"
+    question: "How many comic strips did Charles draw?"
+    options:
+      - "1,000 strips"
+      - "5,000 strips"
+      - "10,000 strips"
+      - "17,897 strips"
+    correctIndex: 3
+    explanation: "Charles drew 17,897 comic strips, and every single one by himself!"
+    characterImage: "/assets/historic-halloween/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q9"
+    question: "What did Charles do even when people said no to him?"
+    options:
+      - "He gave up"
+      - "He got angry"
+      - "He never gave up"
+      - "He stopped drawing"
+    correctIndex: 2
+    explanation: "Charles never gave up! Even when Disney said no and his school rejected his drawings, he kept trying!"
+    characterImage: "/assets/historic-halloween/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q10"
+    question: "Why is Charles M. Schulz a good person to dress up as?"
+    options:
+      - "He was famous"
+      - "He never gave up and made people happy"
+      - "He was rich"
+      - "He lived a long time ago"
+    correctIndex: 1
+    explanation: "Charles Schulz is special because he never gave up on his dreams and created Peanuts that made millions of people happy!"
+    characterImage: "/assets/historic-halloween/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
