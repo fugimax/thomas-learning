@@ -11,13 +11,6 @@ export interface Chapter {
   cards: StoryCard[];
 }
 
-export interface AppState {
-  currentChapter: number;
-  currentCard: number;
-  visitedChapters: Set<number>;
-  tocOpen: boolean;
-}
-
 export interface QuizQuestion {
   id: string;
   question: string;
@@ -26,4 +19,21 @@ export interface QuizQuestion {
   explanation: string;
   characterImage: string;
   characterName: string;
+}
+
+// New multi-story types
+export interface Story {
+  id: string;
+  title: string;
+  description: string;
+  thumbnail: string;
+  chapters: Chapter[];
+  quiz?: QuizQuestion[];  // Optional quiz
+}
+
+export interface AppState {
+  currentChapter: number;
+  currentCard: number;
+  visitedChapters: Set<number>;
+  tocOpen: boolean;
 }

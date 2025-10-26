@@ -1,0 +1,61 @@
+# Story Template
+# Copy this file to create a new story. Each story needs:
+# - Unique ID (lowercase, no spaces, e.g., "schulz" or "space-adventure")
+# - Title, description, and thumbnail image
+# - Chapters with cards (story content)
+# - Optional quiz questions
+
+# Story metadata
+id: example-story
+title: "Example Story Title"
+description: "A short description that appears on the home screen"
+thumbnail: "/assets/example-story/thumbnail.png"
+
+# Story chapters (each chapter has multiple cards)
+chapters:
+  - id: 1
+    title: "CHAPTER ONE TITLE"
+    cards:
+      - id: "card-1"
+        text: "The story text that appears in the speech bubble. Keep it age-appropriate and engaging!"
+        characterImage: "/assets/example-story/character1.png"
+        characterName: "Character Name"
+
+      - id: "card-2"
+        text: "Another card of story content. You can have as many cards as you need."
+        characterImage: "/assets/example-story/character2.png"
+        characterName: "Another Character"
+
+  - id: 2
+    title: "CHAPTER TWO TITLE"
+    cards:
+      - id: "card-3"
+        text: "Start of chapter 2..."
+        characterImage: "/assets/example-story/character1.png"
+        characterName: "Character Name"
+
+# Quiz questions (OPTIONAL - remove this section if no quiz)
+quiz:
+  - id: "q1"
+    question: "What is the quiz question?"
+    options:
+      - "First answer option"
+      - "Second answer option"
+      - "Third answer option"
+      - "Fourth answer option"
+    correctIndex: 0  # Index of correct answer (0 = first option, 1 = second, etc.)
+    explanation: "Explanation of why this is the correct answer"
+    characterImage: "/assets/example-story/quiz-character.png"
+    characterName: "Quiz Character"
+
+  - id: "q2"
+    question: "Another quiz question?"
+    options:
+      - "Answer A"
+      - "Answer B"
+      - "Answer C"
+      - "Answer D"
+    correctIndex: 1
+    explanation: "Explanation for this question"
+    characterImage: "/assets/example-story/quiz-character.png"
+    characterName: "Quiz Character"

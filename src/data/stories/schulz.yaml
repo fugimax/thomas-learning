@@ -1,0 +1,508 @@
+id: schulz
+title: "Meet Charles M. Schulz"
+description: "Learn about the amazing man who created Peanuts!"
+thumbnail: "/assets/schulz/thumbnail.png"
+
+chapters:
+  - id: 1
+    title: "MEET CHARLES M. SCHULZ"
+    cards:
+      - id: "welcome-1"
+        text: "Hi there, Thomas! I'm Snoopy. The rest of the gang and I want to tell you about someone very special..."
+        characterImage: "/assets/schulz/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "welcome-2"
+        text: "This is the story of Charles M. Schulz - the man who created us! Everything you see in Peanuts came from his real life."
+        characterImage: "/assets/schulz/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+      - id: "welcome-3"
+        text: "All the characters, all the stories, all the feelings - they all came from real people and real things that happened to Charles!"
+        characterImage: "/assets/schulz/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "welcome-4"
+        text: "Ready to learn about the amazing man who drew us? Let's go!"
+        characterImage: "/assets/schulz/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+  - id: 2
+    title: "BABY CHARLES GETS HIS NICKNAME"
+    cards:
+      - id: "ch1-1"
+        text: "Charles M. Schulz was born on November 26, 1922, in Minneapolis, Minnesota. He was just a tiny baby!"
+        characterImage: "/assets/schulz/character-images/Sally.png"
+        characterName: "Sally"
+
+      - id: "ch1-2"
+        text: "When he was only two days old, his uncle looked at him and said, 'Let's call him Sparky!' The nickname came from a horse in a comic strip!"
+        characterImage: "/assets/schulz/character-images/Sally.png"
+        characterName: "Sally"
+
+      - id: "ch1-3"
+        text: "Everyone called him by his nickname Sparky his whole life - even when he became world-famous! But his real name was always Charles."
+        characterImage: "/assets/schulz/character-images/Sally.png"
+        characterName: "Sally"
+
+      - id: "ch1-4"
+        text: "Charles's dad was named Carl, and he was a barber. Every Sunday morning, Carl and little Charles would sit together and read comic strips from the newspaper. They loved it!"
+        characterImage: "/assets/schulz/character-images/Sally.png"
+        characterName: "Sally"
+
+  - id: 3
+    title: "SPIKE - THE AMAZING DOG!"
+    cards:
+      - id: "ch2-1"
+        text: "When Charles was a boy, he had the most amazing dog named Spike! Spike was black and white, just like me."
+        characterImage: "/assets/schulz/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "ch2-2"
+        text: "Spike was SO smart - he understood 50 different words! He could do the coolest tricks too."
+        characterImage: "/assets/schulz/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "ch2-3"
+        text: "Spike would ring the doorbell when he wanted to come inside! He loved car rides so much that honking the horn was the only way to get him to come home!"
+        characterImage: "/assets/schulz/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "ch2-4"
+        text: "When Charles was just 15 years old, he drew a picture of Spike that was published in a magazine! This was his very first published drawing ever!"
+        characterImage: "/assets/schulz/character-images/spike-drawing.png"
+        characterName: "Spike Drawing"
+
+      - id: "ch2-5"
+        text: "Years later, Charles created ME based on Spike! I'm Spike's legacy! Woof!"
+        characterImage: "/assets/schulz/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+  - id: 4
+    title: "NEVER GIVE UP!"
+    cards:
+      - id: "ch3-1"
+        text: "When Charles was in kindergarten, his teacher gave everyone paper and crayons to draw. She looked at Charles's drawing and said something amazing..."
+        characterImage: "/assets/schulz/schulz-photos/child-schulz.png"
+        characterName: "Young Charles M. Schulz"
+
+      - id: "ch3-2"
+        text: "She said: 'Someday, Charles, you're going to be an artist!' He never forgot those words!"
+        characterImage: "/assets/schulz/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+      - id: "ch3-3"
+        text: "But school got harder. Charles failed some classes. His high school yearbook even rejected his drawings. He felt sad and left out."
+        characterImage: "/assets/schulz/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+      - id: "ch3-4"
+        text: "Even Disney said no when he tried to work there! But Charles never gave up on his dream of being a cartoonist."
+        characterImage: "/assets/schulz/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+      - id: "ch3-5"
+        text: "Charles went to the Army when he was 20 and was far from home. He felt lonely. Later, he put all those feelings into me - Charlie Brown!"
+        characterImage: "/assets/schulz/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+  - id: 5
+    title: "CREATING PEANUTS"
+    cards:
+      - id: "ch4-1"
+        text: "After the Army, Charles kept practicing his drawing. He took his best cartoons to a newspaper company in New York. They loved it!"
+        characterImage: "/assets/schulz/schulz-photos/young-schulz.png"
+        characterName: "Young Charles M. Schulz"
+
+      - id: "ch4-2"
+        text: "On October 2, 1950, the very first Peanuts comic strip appeared in 7 newspapers. Charles was 27 years old!"
+        characterImage: "/assets/schulz/schulz-photos/first-strip.png"
+        characterName: "First Peanuts Comic Strip"
+
+      - id: "ch4-3"
+        text: "But here's a funny secret - Charles HATED the name 'Peanuts'! He wanted to call it 'Good Old Charlie Brown' instead. He complained about the name his whole life!"
+        characterImage: "/assets/schulz/character-images/Snoopy-Author.png"
+        characterName: "Snoopy the Author"
+
+      - id: "ch4-4"
+        text: "Charles drew Peanuts for 50 years - from 1950 to 2000. He drew 17,897 comic strips, and every single one by himself!"
+        characterImage: "/assets/schulz/schulz-photos/schulz-with-characters.png"
+        characterName: "Charles M. Schulz with his characters"
+
+      - id: "ch4-5"
+        text: "By the end, Peanuts appeared in over 2,600 newspapers in 75 countries! About 355 million people read it every day - that's more people than live in the whole United States!"
+        characterImage: "/assets/schulz/character-images/Snoopy-Author.png"
+        characterName: "Snoopy the Author"
+
+  - id: 6
+    title: "THE REAL PEANUTS GANG"
+    cards:
+      - id: "ch5-1"
+        text: "Now here's the most special part - almost every character in Peanuts was based on a REAL person from Charles's life!"
+        characterImage: "/assets/schulz/character-images/peanuts-gang.png"
+        characterName: "The Peanuts Gang"
+
+      - id: "ch5-2"
+        text: "I'm Charlie Brown! I was based on Charles himself. Everything he felt - being shy, feeling lonely, worrying a lot - he put into me!"
+        characterImage: "/assets/schulz/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+      - id: "ch5-3"
+        text: "I'm Snoopy! Remember Spike, the amazing dog? That's me! Charles's mom even suggested the name 'Snoopy'!"
+        characterImage: "/assets/schulz/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "ch5-4"
+        text: "I'm Lucy! I was based on a woman named Louanne who Charles played card games with. She acted in unusual, memorable ways!"
+        characterImage: "/assets/schulz/character-images/Lucy.png"
+        characterName: "Lucy"
+
+      - id: "ch5-5"
+        text: "I'm Linus! I was named after Charles's friend Linus Maurer, who was also a cartoonist. My security blanket came from watching Charles's own kids!"
+        characterImage: "/assets/schulz/character-images/Linus.png"
+        characterName: "Linus"
+
+      - id: "ch5-6"
+        text: "I'm Franklin! I joined the gang in 1968. A teacher wrote Charles a letter asking for a character who looked like me. Charles said yes right away!"
+        characterImage: "/assets/schulz/character-images/Franklin.png"
+        characterName: "Franklin"
+
+  - id: 7
+    title: "CHARLES'S AMAZING LIFE"
+    cards:
+      - id: "ch6-1"
+        text: "Charles worked SO hard! He drew 7 hours a day, 5 days a week, for 50 years. He only took ONE vacation in all that time!"
+        characterImage: "/assets/schulz/character-images/Snoopy.png"
+        characterName: "Snoopy"
+
+      - id: "ch6-2"
+        text: "Charles LOVED ice skating and hockey! When the local ice rink closed, he used his own money to build a new one for everyone in town to use!"
+        characterImage: "/assets/schulz/schulz-photos/hockey-schulz.png"
+        characterName: "Charles playing hockey"
+
+      - id: "ch6-3"
+        text: "Guess what? Charlie Brown and I went to the MOON! In 1969, NASA named their space modules 'Charlie Brown' and 'Snoopy'!"
+        characterImage: "/assets/schulz/character-images/snoopy-moon.png"
+        characterName: "Snoopy on the Moon"
+
+      - id: "ch6-4"
+        text: "Charles won Emmy awards for our TV shows, got a star on the Hollywood Walk of Fame, and became world-famous!"
+        characterImage: "/assets/schulz/character-images/CharlieBrown.png"
+        characterName: "Charlie Brown"
+
+      - id: "ch6-5"
+        text: "Charles drew comics until he was 77 years old. His very last comic strip came out on February 13, 2000. He never stopped doing what he loved!"
+        characterImage: "/assets/schulz/schulz-photos/old-schulz.png"
+        characterName: "Charles M. Schulz"
+
+  - id: 8
+    title: "YOU'RE READY!"
+    cards:
+      - id: "celebrate-1"
+        text: "Now you know all about Charles M. Schulz!"
+        characterImage: "/assets/schulz/character-images/peanuts-gang.png"
+        characterName: "The Peanuts Gang"
+
+      - id: "celebrate-2"
+        text: "He turned his real life into art that made millions of people smile. His dog Spike became Snoopy. His feelings became Charlie Brown. His friends became all of us!"
+        characterImage: "/assets/schulz/character-images/peanuts-gang.png"
+        characterName: "The Peanuts Gang"
+
+      - id: "celebrate-3"
+        text: "Just like Charlie Brown, Charles never gave up - even when things were hard. That's what made him amazing!"
+        characterImage: "/assets/schulz/character-images/peanuts-gang.png"
+        characterName: "The Peanuts Gang"
+
+      - id: "celebrate-4"
+        text: "You're ready for Halloween! Good grief, you're going to be great!"
+        characterImage: "/assets/schulz/character-images/peanuts-halloween.png"
+        characterName: "The Peanuts Gang"
+
+quiz:
+  - id: "q1"
+    question: "When was Charles M. Schulz born?"
+    options:
+      - "November 26, 1922"
+      - "October 2, 1950"
+      - "February 13, 2000"
+      - "December 25, 1920"
+    correctIndex: 0
+    explanation: "Charles M. Schulz was born on November 26, 1922, in Minneapolis, Minnesota!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q2"
+    question: "What was Charles Schulz's nickname?"
+    options:
+      - "Charlie"
+      - "Sparky"
+      - "Chuck"
+      - "Chuckie"
+    correctIndex: 1
+    explanation: "When he was just two days old, his uncle called him \"Sparky\" after a horse in a comic strip!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q3"
+    question: "What was Charles's father's job?"
+    options:
+      - "Teacher"
+      - "Barber"
+      - "Artist"
+      - "Doctor"
+    correctIndex: 1
+    explanation: "Charles's dad Carl was a barber. Every Sunday they would read comic strips together!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q4"
+    question: "What was the name of Charles's amazing dog?"
+    options:
+      - "Snoopy"
+      - "Spike"
+      - "Spot"
+      - "Buddy"
+    correctIndex: 1
+    explanation: "Charles had a dog named Spike who was black and white, just like Snoopy! Snoopy was created based on Spike."
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q5"
+    question: "How many words did Spike understand?"
+    options:
+      - "10 words"
+      - "25 words"
+      - "50 words"
+      - "100 words"
+    correctIndex: 2
+    explanation: "Spike was SO smart - he understood 50 different words!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q6"
+    question: "How old was Charles when his first drawing was published?"
+    options:
+      - "10 years old"
+      - "15 years old"
+      - "20 years old"
+      - "27 years old"
+    correctIndex: 1
+    explanation: "When Charles was just 15 years old, he drew a picture of Spike that was published in a magazine!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q7"
+    question: "What did Charles's kindergarten teacher tell him?"
+    options:
+      - "You need more practice"
+      - "Someday you'll be an artist"
+      - "You should be a barber"
+      - "Drawing is just a hobby"
+    correctIndex: 1
+    explanation: "His teacher said: \"Someday, Charles, you're going to be an artist!\" He never forgot those words!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q8"
+    question: "What company rejected Charles when he tried to work there?"
+    options:
+      - "Warner Bros"
+      - "Disney"
+      - "Pixar"
+      - "DreamWorks"
+    correctIndex: 1
+    explanation: "Even Disney said no when he tried to work there! But Charles never gave up on his dream."
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q9"
+    question: "How old was Charles when he went to the Army?"
+    options:
+      - "18 years old"
+      - "20 years old"
+      - "25 years old"
+      - "30 years old"
+    correctIndex: 1
+    explanation: "Charles went to the Army when he was 20. He felt lonely, and later put those feelings into Charlie Brown!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q10"
+    question: "When did the first Peanuts comic strip appear?"
+    options:
+      - "October 2, 1950"
+      - "November 26, 1922"
+      - "February 13, 2000"
+      - "July 4, 1945"
+    correctIndex: 0
+    explanation: "On October 2, 1950, the very first Peanuts comic strip appeared in 7 newspapers!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q11"
+    question: "How old was Charles when Peanuts started?"
+    options:
+      - "20 years old"
+      - "25 years old"
+      - "27 years old"
+      - "30 years old"
+    correctIndex: 2
+    explanation: "Charles was 27 years old when the first Peanuts strip appeared!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q12"
+    question: "What did Charles want to name his comic strip?"
+    options:
+      - "Peanuts"
+      - "Good Old Charlie Brown"
+      - "Snoopy and Friends"
+      - "The Gang"
+    correctIndex: 1
+    explanation: "Charles HATED the name \"Peanuts\"! He wanted to call it \"Good Old Charlie Brown\" instead."
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q13"
+    question: "How many comic strips did Charles draw in total?"
+    options:
+      - "1,000 strips"
+      - "5,000 strips"
+      - "10,000 strips"
+      - "17,897 strips"
+    correctIndex: 3
+    explanation: "Charles drew 17,897 comic strips over 50 years, and every single one by himself!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q14"
+    question: "How many people read Peanuts every day at its peak?"
+    options:
+      - "1 million"
+      - "50 million"
+      - "100 million"
+      - "355 million"
+    correctIndex: 3
+    explanation: "About 355 million people read Peanuts every day - that's more people than live in the whole United States!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q15"
+    question: "Which character was based on Charles himself?"
+    options:
+      - "Snoopy"
+      - "Charlie Brown"
+      - "Linus"
+      - "Lucy"
+    correctIndex: 1
+    explanation: "Charlie Brown was based on Charles himself! Everything Charles felt - being shy, lonely, and worried - he put into Charlie Brown."
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q16"
+    question: "Who suggested the name \"Snoopy\"?"
+    options:
+      - "Charles's dad"
+      - "Charles's mom"
+      - "Charles's teacher"
+      - "Charles's friend"
+    correctIndex: 1
+    explanation: "Charles's mom suggested the name \"Snoopy\"!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q17"
+    question: "When was Franklin added to the Peanuts gang?"
+    options:
+      - "1950"
+      - "1960"
+      - "1968"
+      - "1975"
+    correctIndex: 2
+    explanation: "Franklin joined the gang in 1968 after a teacher wrote Charles a letter asking for a character who looked like him!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q18"
+    question: "How many hours a day did Charles work on Peanuts?"
+    options:
+      - "3 hours"
+      - "5 hours"
+      - "7 hours"
+      - "10 hours"
+    correctIndex: 2
+    explanation: "Charles worked 7 hours a day, 5 days a week, for 50 years. He only took ONE vacation in all that time!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q19"
+    question: "What sport did Charles love?"
+    options:
+      - "Baseball"
+      - "Football"
+      - "Ice hockey"
+      - "Basketball"
+    correctIndex: 2
+    explanation: "Charles LOVED ice skating and hockey! When the local ice rink closed, he built a new one for everyone!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q20"
+    question: "What did NASA name their space modules in 1969?"
+    options:
+      - "Apollo and Eagle"
+      - "Charlie Brown and Snoopy"
+      - "Peanuts and Comics"
+      - "Lucy and Linus"
+    correctIndex: 1
+    explanation: "In 1969, NASA named their space modules \"Charlie Brown\" and \"Snoopy\"! They went to the MOON!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q21"
+    question: "When did Charles's last comic strip come out?"
+    options:
+      - "January 1, 2000"
+      - "February 13, 2000"
+      - "December 31, 1999"
+      - "March 15, 2000"
+    correctIndex: 1
+    explanation: "Charles's very last comic strip came out on February 13, 2000. He drew comics until he was 77 years old!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q22"
+    question: "What inspired Linus's security blanket?"
+    options:
+      - "Charles had one as a kid"
+      - "Charles watched his own kids with blankets"
+      - "It was from a comic strip"
+      - "His friend Linus had one"
+    correctIndex: 1
+    explanation: "The security blanket came from watching Charles's own kids!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q23"
+    question: "How many years did Charles draw Peanuts?"
+    options:
+      - "25 years"
+      - "40 years"
+      - "50 years"
+      - "60 years"
+    correctIndex: 2
+    explanation: "Charles drew Peanuts for 50 years - from 1950 to 2000!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"
+
+  - id: "q24"
+    question: "What did Spike do when he wanted to come inside?"
+    options:
+      - "Barked loudly"
+      - "Scratched the door"
+      - "Rang the doorbell"
+      - "Howled"
+    correctIndex: 2
+    explanation: "Spike would ring the doorbell when he wanted to come inside! He was SO smart!"
+    characterImage: "/assets/schulz/character-images/woodstock-quiz.png"
+    characterName: "Woodstock"

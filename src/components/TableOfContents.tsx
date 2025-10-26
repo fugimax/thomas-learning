@@ -8,7 +8,7 @@ interface TableOfContentsProps {
   isOpen: boolean;
   onClose: () => void;
   onSelectChapter: (chapterId: number) => void;
-  onStartQuiz: () => void;
+  onStartQuiz?: () => void;  // Optional - only if story has a quiz
 }
 
 export default function TableOfContents({
@@ -50,18 +50,20 @@ export default function TableOfContents({
             </button>
           ))}
 
-          {/* Quiz Button */}
-          <button
-            onClick={() => {
-              onStartQuiz();
-              onClose();
-            }}
-            className="w-full text-left p-6 bg-blue-100 hover:bg-blue-200 transition-colors border-t-2 border-black"
-          >
-            <span className="text-xl md:text-2xl font-bold">
-              ⭐ QUIZ
-            </span>
-          </button>
+          {/* Quiz Button - only show if quiz is available */}
+          {onStartQuiz && (
+            <button
+              onClick={() => {
+                onStartQuiz();
+                onClose();
+              }}
+              className="w-full text-left p-6 bg-blue-100 hover:bg-blue-200 transition-colors border-t-2 border-black"
+            >
+              <span className="text-xl md:text-2xl font-bold">
+                ⭐ QUIZ
+              </span>
+            </button>
+          )}
         </div>
       </div>
     </>

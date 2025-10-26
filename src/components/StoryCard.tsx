@@ -9,7 +9,7 @@ interface StoryCardProps {
   hasPrevious: boolean;
   isLastCard: boolean;
   onStartOver: () => void;
-  onTakeQuiz: () => void;
+  onTakeQuiz?: () => void;  // Optional - only if story has a quiz
 }
 
 export default function StoryCard({
@@ -43,7 +43,7 @@ export default function StoryCard({
       {/* Navigation Buttons - fixed at bottom */}
       <div className="fixed bottom-0 left-0 right-0 flex gap-4 justify-center p-4 bg-yellow-100">
         {isLastCard ? (
-          // Last card - show "Start Over" and "Take Quiz" buttons
+          // Last card - show "Start Over" and optionally "Take Quiz" buttons
           <>
             <button
               onClick={onStartOver}
@@ -51,12 +51,14 @@ export default function StoryCard({
             >
               Start Over
             </button>
-            <button
-              onClick={onTakeQuiz}
-              className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full text-lg md:text-xl transition-colors"
-            >
-              Take Quiz
-            </button>
+            {onTakeQuiz && (
+              <button
+                onClick={onTakeQuiz}
+                className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full text-lg md:text-xl transition-colors"
+              >
+                Take Quiz
+              </button>
+            )}
           </>
         ) : (
           // Normal navigation - show "Previous" and "Next" buttons
